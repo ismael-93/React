@@ -1,0 +1,13 @@
+import Welcome from "./petit-enfant2";
+ 
+/****************ENFANT 2****************************** */
+export default  function Dashboard({ user }) {
+  console.log('ENFANT 2', { user });
+ 
+  return (
+    <main>
+ 
+      <Welcome user={user} />
+    </main>
+  );
+}

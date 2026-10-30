@@ -1,0 +1,56 @@
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  background: var(--bleu);
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.banner nav {
+  display: flex;
+  gap: 8px;
+}
+
+.banner nav a {
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.banner nav a:hover {
+  background: var(--bleu-clair);
+}
+
+.recherche {
+  width: 280px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fff;
+  color: var(--texte);
+}
+
+.recherche:focus {
+  outline: 2px solid var(--bleu-clair);
+}
+
+.banner nav button {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.banner nav button:hover {
+  background: var(--bleu-clair);
+}

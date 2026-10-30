@@ -1,0 +1,35 @@
+.sidebar {
+  height: 100%;
+  padding: 20px;
+  background: var(--carte);
+  border-right: 1px solid var(--bordure);
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  color: var(--bleu);
+  margin-bottom: 12px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 4px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px 10px;
+  border-radius: 6px;
+  color: var(--texte);
+}
+
+.sidebar a:hover {
+  background: var(--fond);
+  color: var(--bleu);
+}
+.sidebar {
+  padding: 20px;
+}

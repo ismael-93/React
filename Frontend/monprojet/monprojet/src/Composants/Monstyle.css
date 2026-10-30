@@ -1,0 +1,57 @@
+/* Réinitialisation simple */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    color: #222;
+  }
+
+.grille-produits {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.carte-produit {
+  background: var(--carte);
+  border: 1px solid var(--bordure);
+  border-radius: var(--rayon);
+  padding: 12px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.carte-produit:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.carte-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.carte-produit h3 {
+  font-size: 16px;
+  color: var(--texte);
+  margin-bottom: 4px;
+}
+
+.carte-prix {
+  color: var(--bleu);
+  font-weight: 700;
+}

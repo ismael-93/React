@@ -1,0 +1,11 @@
+
+.rightColumn {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  background: #eef1f5;
+}
+
+.rightColumn p {
+  margin-top: 8px;
+}

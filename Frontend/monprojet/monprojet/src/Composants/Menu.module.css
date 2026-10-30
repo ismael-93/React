@@ -1,0 +1,15 @@
+
+.menu {
+  margin: 0;
+  padding: 16px;
+}
+
+.menu a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
